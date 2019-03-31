@@ -3,11 +3,12 @@ package yaml
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/flynn-archive/go-shlex"
 	"io/ioutil"
 	"os"
 	"path/filepath"
 	"strings"
+
+	"github.com/flynn-archive/go-shlex"
 
 	"github.com/go-ozzo/ozzo-validation"
 	"github.com/pkg/errors"
